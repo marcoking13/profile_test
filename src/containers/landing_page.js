@@ -1,5 +1,5 @@
 import React from "react";
-import Demo from "./../imgs/star_slash_demo.mp4";
+
 
 import Intro from "./../components/home/intro.js";
 import Graphic from "./../components/home/graphics.js";

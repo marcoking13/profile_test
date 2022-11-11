@@ -1,5 +1,5 @@
 import React from "react";
-import LandingBackground from "./../../imgs/landing_background_reverse.gif";
+
 import AbsoluteBackground from "./../general/absolute_background";
 
 const ViewSourceSection = (props)=>{
@@ -69,7 +69,7 @@ const ViewSourceSection = (props)=>{
           </div>
 
         </div>
-        
+
     </div>
     )
 
