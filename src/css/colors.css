@@ -1,0 +1,142 @@
+.cyan_background{
+  background:cyan;
+}
+
+.orange_text{
+  color:orange !important;
+}
+
+.cyan_color{
+  color:cyan;
+}
+
+.white-border-2px {
+  border:2px solid white !important;
+}
+.background_black{
+  background:black;
+}
+
+.sublime-background{
+  background:#FFBD59;
+}
+
+.white-border-medium{
+  border-color:white;
+}
+
+.max-z-99{
+  z-index:999;
+}
+
+.smoky-black-background{
+  background:#00050C;
+}
+
+.sublime-orange-border-thin{
+  border:#FFBD59 1px solid;
+}
+
+.sublime-orange-border-thick{
+  border:#FFBD59 4px solid;
+}
+
+.border-cut-slight{
+  border-radius:5px;
+}
+
+.white_color{
+  color:white;
+}
+
+.border-color-orange-2px {
+  border:orange 2px solid;
+}
+
+.hover_sublime_orange:hover{
+   color:#FFBD59;
+}
+
+.dark_cyan_background{
+  color:#4a707a;;
+}
+
+.work{
+  font-family:"Nunito Sans";
+}
+
+.dark_cyan_color{
+  color:#4a707a;
+}
+
+.light_cyan_background{
+  color:#7697a0;
+}
+
+.black-background{
+  background:black;
+}
+
+.light_dark_background{
+  background:#04181a;
+}
+
+.border_top_white{
+  border-top:white 1px solid;
+}
+
+.light_cyan_color{
+  color:#7697a0;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.sublime-border-orange-thick{
+  border:4px solid #FFBD59;
+}
+
+.greyish_background{
+  background-color: #33343f;
+}
+
+.vibrant_orange_text{
+  color:#FF9933;
+}
+
+.sublime_orange_text{
+  color:#FFBD59;
+}
+
+.shaded_cyan_background{
+  color:#ddddda;
+}
+
+.shaded_cyan_color{
+  color:#ddddda;
+}
+
+.lightest_cyan_background{
+  color:#94b0b7;
+}
+
+.lightest_cyan_color{
+  color:#94b0b7;
+}
+
+.white_text{
+  color:white;
+}
+
+.lighter_cyan_background{
+  color:#c2c8c5;
+}
+
+.lighter_cyan_color{
+  color:#c2c8c5;
+}
+
+.margin_top_15{
+  margin-top:15%;
+}

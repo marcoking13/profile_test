@@ -1,0 +1,65 @@
+.slideshow_background{
+  right:20px;
+}
+
+.subList_small{
+  font-size:15px;
+}
+.contact_form:focus{
+  outline:none !important;
+  border-bottom:orange 4px solid !important;
+}
+.about_name_subheading{
+  font-size:25px;
+}
+.contact_form{
+  background:none;
+  box-sizing: border-box;
+  border: none;
+  border-bottom:2px solid white;
+}
+
+.white_button_normal{
+  border:2px solid white;
+}
+
+.notes_text_area{
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid white;
+}
+
+.input_area:focus{
+  border:2px solid orange;
+  background:black;
+  outline: none !important;
+}
+
+.slideshow_about{
+  border-bottom:1px solid white;
+}
+
+.slidshow_sub_heading{
+  width:70%;
+}
+
+.toggle_slideshow{
+  padding:30%;
+  border:2px solid orange;
+}
+
+.about_name_title{
+  font-size:40px;
+  margin-top:10%;
+}
+
+.active_toggle_slideshow{
+  padding:30%;
+  background:orange;
+  border:2px solid orange;
+}
+
+.toggle_slideshow:hover{
+  border-color:orange;
+  background:orange;
+}
