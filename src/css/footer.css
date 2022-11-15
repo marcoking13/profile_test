@@ -1,0 +1,29 @@
+.footer{
+  padding-top:2.5%;
+  padding-bottom:2.5%;
+  border-top:1px solid white;
+  color:white;
+  z-index:999;
+
+  text-align:center;
+  width:100%;
+}
+
+.footer_text{
+  font-size:18px;
+}
+
+.navbar{
+  width:105%;
+  padding-bottom:5px;
+  right:0;
+  left:0;
+  top:0;
+  animation: 1 .5s navbar_animation_reverse ease-out;
+}
+
+.nav_bar_animation{
+  background:#00050C;
+  border-bottom:1px #00050C solid;
+  animation: 1 .5s navbar_animation ease-in;
+}

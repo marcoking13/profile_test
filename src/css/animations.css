@@ -1,0 +1,112 @@
+@keyframes bubble_up {
+  0% {
+    bottom:0px;
+  }
+  10%{
+    right:10px;
+  }
+  20%{
+    right:-10px;
+    opacity:.5;
+  }
+  30%{
+    right:10px;
+  }
+  40%{
+    right:-10px;
+  }
+  50%{
+    right:10px;
+    opacity:1;
+  }
+  60%{
+    right:10px;
+  }
+  70%{
+    right:10px;
+    opacity:.2;
+  }
+  80%{
+    right:10px;
+    opacity:1
+  }
+  90%{
+    right:10px;
+  }
+  100%{
+    right:10px;
+    bottom:50px;
+    opacity:0;
+  }
+}
+
+@keyframes turn_button_orange{
+from{
+    background:none;
+    border-color:white;
+    color:white;
+  }
+  to{
+    background:#FFBD59;
+    border-color:#FFBD59;
+    color:black;
+  }
+}
+
+@keyframes skill_card_ani {
+  0%{
+    filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
+    border-color: orange;
+    color:orange;
+  }
+  100%{
+      filter:  grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(0.8);
+      border-color: #FFBD59;
+      color:#FFBD59;
+    }
+
+}
+
+@keyframes transition_color_orange{
+  from{
+    color:black;
+  }
+  to{
+    color:orange;
+  }
+}
+
+@keyframes transition_full_opacity{
+  from{
+    width:0;
+  }
+  to{
+    width:100%;
+  }
+}
+
+
+@keyframes navbar_animation{
+  from{
+     background:none;
+border-bottom:1px white solid;
+  }
+  to{
+    background:#00050C;
+    border-bottom:1px #00050C solid;
+
+  }
+}
+
+@keyframes navbar_animation_reverse{
+  from{
+     background:#00050C;
+    border-bottom:1px #00050C solid;
+
+  }
+  to{
+    background:none;
+  border-bottom:1px white solid;
+
+  }
+}

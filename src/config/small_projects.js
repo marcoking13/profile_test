@@ -11,17 +11,6 @@ const SmallProjects = [
     platform:"Windows"
   },
   {
-    name:"Sequencer",
-    madeWith:"JS & HTML/CSS",
-    languageIcons:["js_icon.svg","html_icon.svg"],
-    link:"https://marcoking13.github.io/Sequencer/",
-    published:new Date(2022, 5),
-    platform:"Windows",
-    type:"Coding Tool",
-    languages: "JS, HTML/CSS",
-    splashImage:"/imgs/sequence_app.png"
-  },
-  {
     name:"Snake Game",
     madeWith:"Python & Turtle Graphics",
     link:"https://marcoking13.github.io/Raging-Rumble/",
@@ -100,7 +89,17 @@ const SmallProjects = [
     languages: "Python",
     splashImage:"/imgs/treasure_app.png"
   },
-
+  {
+    name:"Sequencer",
+    madeWith:"JS & HTML/CSS",
+    languageIcons:["js_icon.svg","html_icon.svg"],
+    link:"https://marcoking13.github.io/Sequencer/",
+    published:new Date(2022, 5),
+    platform:"Windows",
+    type:"Coding Tool",
+    languages: "JS, HTML/CSS",
+    splashImage:"/imgs/sequence_app.png"
+  },
   {
     name:"Planet Typer",
     madeWith:"JS",
