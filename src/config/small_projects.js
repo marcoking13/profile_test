@@ -11,12 +11,69 @@ const SmallProjects = [
     platform:"Windows"
   },
   {
+    name:"Sequencer",
+    madeWith:"JS & HTML/CSS",
+    languageIcons:["js_icon.svg","html_icon.svg"],
+    link:"https://marcoking13.github.io/Sequencer/",
+    published:new Date(2022, 5),
+    platform:"Windows",
+    type:"Coding Tool",
+    languages: "JS, HTML/CSS",
+    splashImage:"/imgs/sequence_app.png"
+  },
+  {
+    name:"Space Defender",
+    madeWith:"Unity and C#",
+    link:"https://sableye12.itch.io/laser-battle",
+    platform:"Windows",
+    type:"Coding Tool",
+    languages: "Unity and C#",
+    languageIcons:["c_sharp_icon.svg","unity_icon.svg"],
+    published:new Date(2021, 2),
+    splashImage:"/imgs/space_defender_app.png"
+  },
+  {
+    name:"Calculator",
+    madeWith:"JS and HTML",
+    link:"https://marcoking13.github.io/Calculator/",
+    languageIcons:["js_icon.svg","html_icon.svg"],
+    published:new Date(2022, 6),
+    splashImage:"/imgs/calculator_app.png",
+    languages: "JS, HTML/CSS",
+    type:"Coding Tool",
+    platform:"Windows"
+
+  },
+  {
+    name:"Space Defender",
+    madeWith:"JS & HTML",
+    link:"https://powerful-temple-57799.herokuapp.com",
+    languageIcons:["js_icon.svg","html_icon.svg"],
+    published:new Date(2022, 6),
+    platform:"Windows",
+    type:"Typing Game",
+    languages: "JS, HTML/CSS",
+    splashImage:"/imgs/planet_defender_app.png"
+  },
+
+  {
+    name:"Gif Creator",
+    madeWith:"JS & HTML",
+    link:"https://marcoking13.github.io/Gif-Controls/",
+    languageIcons:["js_icon.svg","html_icon.svg"],
+    published:new Date(2022, 6),
+    platform:"Windows",
+    type:"Coding Tool",
+    languages: "JS, HTML/CSS",
+    splashImage:"/imgs/gif_app.png"
+  },
+  {
     name:"Snake Game",
     madeWith:"Python & Turtle Graphics",
     link:"https://marcoking13.github.io/Raging-Rumble/",
     languageIcons:["python.svg"],
     published:new Date(2022, 6),
-    splashImage:"/imgs/snake_app.png",
+    splashImage:"/imgs/snake_game.svg",
     languages: "Python, Turtle Graphics",
     type:"Python Game",
     platform:"Windows"
@@ -27,7 +84,7 @@ const SmallProjects = [
     link:"https://marcoking13.github.io/Raging-Rumble/",
     languageIcons:["python.svg"],
     published:new Date(2022, 6),
-    splashImage:"/imgs/pong.png",
+    splashImage:"/imgs/pong_game.svg",
     languages: "Python, Turtle Graphics",
     type:"Python Game",
     platform:"Windows"
@@ -44,18 +101,7 @@ const SmallProjects = [
     type:"Extracts Colors from Images",
     platform:"Windows"
   },
-  {
-    name:"Calculator",
-    madeWith:"JS and HTML",
-    link:"https://marcoking13.github.io/Calculator/",
-    languageIcons:["js_icon.svg","html_icon.svg"],
-    published:new Date(2022, 6),
-    splashImage:"/imgs/calculator_app.png",
-    languages: "JS, HTML/CSS",
-    type:"Coding Tool",
-    platform:"Windows"
 
-  },
   {
     name:"Higher or Lower",
     madeWith:"Python",
@@ -89,28 +135,7 @@ const SmallProjects = [
     languages: "Python",
     splashImage:"/imgs/treasure_app.png"
   },
-  {
-    name:"Sequencer",
-    madeWith:"JS & HTML/CSS",
-    languageIcons:["js_icon.svg","html_icon.svg"],
-    link:"https://marcoking13.github.io/Sequencer/",
-    published:new Date(2022, 5),
-    platform:"Windows",
-    type:"Coding Tool",
-    languages: "JS, HTML/CSS",
-    splashImage:"/imgs/sequence_app.png"
-  },
-  {
-    name:"Planet Typer",
-    madeWith:"JS",
-    languageIcons:["js_icon.svg","html_icon.svg"],
-    published:new Date(2020, 3),
-    type:"Coding Tool",
-    platform:"Windows",
-    languages: "JS, HTML/CSS",
-    link:"https://marcoking13.github.io/UFO-Defend/",
-    splashImage:"/imgs/planet_defender_app.png"
-  },
+
   {
     name:"Rock Paper Scissors",
     madeWith:"Python",
@@ -133,28 +158,8 @@ const SmallProjects = [
     languages: "Python",
     splashImage:"/imgs/bmi_app.png"
   },
-  {
-    name:"Gif Creator",
-    madeWith:"JS & HTML",
-    link:"https://marcoking13.github.io/Gif-Controls/",
-    languageIcons:["js_icon.svg","html_icon.svg"],
-    published:new Date(2022, 6),
-    platform:"Windows",
-    type:"Coding Tool",
-    languages: "JS, HTML/CSS",
-    splashImage:"/imgs/gif_app.png"
-  },
-  {
-    name:"Ghost Tapper",
-    type:"Coding Tool",
-    madeWith:"JS & HTML",
-    link:"https://marcoking13.github.io/Boo_Mansion/",
-    languageIcons:["js_icon.svg","html_icon.svg"],
-    published:new Date(2022, 6),
-    platform:"Windows",
-    languages: "JS, HTML/CSS",
-    splashImage:"/imgs/ghost_tap_app.png"
-  },
+
+
   {
     name:"Secret Auction",
     madeWith:"Python",
@@ -166,17 +171,7 @@ const SmallProjects = [
     link:"https://replit.com/@MarcoKhodr/Secret-Auction#main.py",
     splashImage:"/imgs/auction_app.png"
   },
-  {
-    name:"Space Defender",
-    madeWith:"Unity and C#",
-    link:"",
-    platform:"Windows",
-    type:"Coding Tool",
-    languages: "Unity and C#",
-    languageIcons:["c_sharp_icon.svg","unity_icon.svg"],
-    published:new Date(2021, 2),
-    splashImage:"/imgs/space_defender_app.png"
-  },
+
   {
     name:"Ceaser Cipher",
     madeWith:"Python",
@@ -261,7 +256,7 @@ const SmallProjects = [
     link:"https://marcoking13.github.io/Raging-Rumble/",
     languageIcons:["python.svg"],
     published:new Date(2022, 6),
-    splashImage:"/imgs/turtle_app.png",
+    splashImage:"/imgs/turtle_racing.png",
     languages: "Python, Turtle Graphics",
     type:"Python Game",
     platform:"Windows"

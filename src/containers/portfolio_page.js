@@ -48,7 +48,10 @@ class PortfolioPage extends React.Component {
     }
   }
 
-
+  GoToApp = (link,i)=>{
+    console.log(link.link)
+    window.location.assign(link.link);
+  }
   render(){
 
     return(
@@ -58,13 +61,13 @@ class PortfolioPage extends React.Component {
           <div className="container-fluid ">
             <br />
             <br />
-            <PortfolioSection ToggleProject = {this.props.ToggleProject} size="4"config = {Projects} renderProjectModal = {this.renderProjectModal}/>
+            <PortfolioSection isLink= {false}  ToggleProject = {this.props.ToggleProject} size="4"config = {Projects} renderProjectModal = {this.renderProjectModal}/>
           </div>
 
           <div className="margin-top-5">
           <h2 className="small_project_heading sublime_orange_text margin-left-5">Small Projects </h2>
             {this.renderEmbed(this.state.currentSmallProject)}
-            <PortfolioSection  ToggleProject = {console.log("hi")} size = "4"config = {SmallProjects} />
+            <PortfolioSection isLink= {true} ToggleProject = {this.GoToApp} size = "4"config = {SmallProjects} />
           </div>
 
         </div>

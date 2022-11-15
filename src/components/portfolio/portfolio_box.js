@@ -1,8 +1,8 @@
 const PortfolioBox = (props) => {
-
+  const x = props.isLink ? props.project.link : props.project;
   const colorClass = props.isSplashLight ? "black !important" : "white";
   return(
-    <div className={`col-${props.colSize} margin-top-20 portfolio_box`} onClick = {()=>{props.ToggleProject(props.project,props.index)}}>
+    <div className={`col-${props.colSize} margin-top-20 portfolio_box`} onClick = {()=>{props.ToggleProject(x,props.index)}}>
 
       <div className="portfolio_box_child   width-100 border-radius-10 height-100 " >
         <img class="width-100 portfolio_image" src= {process.env.PUBLIC_URL + props.project.splashImage} style={{height:"450px"}}/>
@@ -16,7 +16,7 @@ const PortfolioBox = (props) => {
         </div>
 
       </div>
-      
+
     </div>
   )
 }
