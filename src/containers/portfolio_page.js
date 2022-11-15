@@ -4,6 +4,7 @@ import React from "react";
 import Heading from "./../components/general/heading.js";
 import ProjectToggler from "./../components/general/project_toggler.js";
 import SmallProjects from "./../config/small_projects.js";
+import Projects from "./../config/projects.js";
 import PortfolioSection from "./../components/portfolio/portfolio_section.js";
 
 import "./../css/projects.css";
@@ -57,12 +58,13 @@ class PortfolioPage extends React.Component {
           <div className="container-fluid ">
             <br />
             <br />
-            <PortfolioSection ToggleProject = {this.props.ToggleProject} renderProjectModal = {this.renderProjectModal}/>
+            <PortfolioSection ToggleProject = {this.props.ToggleProject} size="4"config = {Projects} renderProjectModal = {this.renderProjectModal}/>
           </div>
 
-          <div>
+          <div className="margin-top-5">
+          <h2 className="small_project_heading sublime_orange_text margin-left-5">Small Projects </h2>
             {this.renderEmbed(this.state.currentSmallProject)}
-            <ProjectToggler isBig={true} limit = {5} config = {SmallProjects} ToggleSmallProject = {this.ToggleSmallProject} />
+            <PortfolioSection  ToggleProject = {console.log("hi")} size = "4"config = {SmallProjects} />
           </div>
 
         </div>

@@ -1,14 +1,14 @@
 import React from "react";
 
 import ArrowIcon from "./../../imgs/arrow_icon.png";
-import Projects from "./../../config/projects.js";
+
 import PortfolioBox from "./portfolio_box.js";
 
 class PortfolioSection extends React.Component {
 
   constructor(props){
     super(props);
-    this.state = {projects:Projects}
+    this.state = {projects:props.config,size:props.size}
   }
 
 
@@ -19,7 +19,7 @@ class PortfolioSection extends React.Component {
     return this.state.projects.map((project,i)=>{
 
       return(
-        <PortfolioBox colSize={"4"} index = {i} ToggleProject = {this.props.ToggleProject} project = {project} />
+        <PortfolioBox colSize={this.state.size} index = {i} ToggleProject = {this.props.ToggleProject} project = {project} />
       );
 
     });
