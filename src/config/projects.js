@@ -320,12 +320,12 @@ export default [
     published:"2020",
     splashImage:"/imgs/ez-eatz-splash.png",
     isSplashLight:false,
-    embed:"",
+    embed:"https://ez-eatz-app.herokuapp.com/",
     name:"EZ Eatz",
     description:"EZ-Eatz is an app that will allow users to see nearby foodtrucks and then also be able to order from them and pick up their food, save your self the inconvience of trying to track down foodtrucks and waiting in line and instead track and order right from your phone!",
     type:"Foodtruck Finder",
     languages:"MERN, JS, HTML/CSS",
-    link:"",
+    link:"https://ez-eatz-app.herokuapp.com/",
     platform:"Windows",
     workflow:[
       {
