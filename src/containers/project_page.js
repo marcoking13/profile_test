@@ -13,12 +13,15 @@ class ProjectModal extends React.Component {
   constructor(props){
     super(props);
   }
+  GoToApp = (link)=>{
+    window.open(link);
+  }
   render(){
 
     return(
       <div className="project_modal">
 
-        <Heading margin = "10%" title = {this.props.currentProject.name} subTitle = "Click to view full app"/>
+        <Heading  GoToLink = {this.GoToApp} project = {this.props.currentProject} margin = "10%" title = {this.props.currentProject.name} subTitle = "Click to view full app"/>
 
 
         <div className="row">

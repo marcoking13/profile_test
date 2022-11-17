@@ -17,21 +17,11 @@ const SmallProjects = [
     link:"https://marcoking13.github.io/Sequencer/",
     published:new Date(2022, 5),
     platform:"Windows",
-    type:"Coding Tool",
+    type:"Arithmetic Sequence Calculator",
     languages: "JS, HTML/CSS",
     splashImage:"/imgs/sequence_app.png"
   },
-  {
-    name:"Space Defender",
-    madeWith:"Unity and C#",
-    link:"https://sableye12.itch.io/laser-battle",
-    platform:"Windows",
-    type:"Coding Tool",
-    languages: "Unity and C#",
-    languageIcons:["c_sharp_icon.svg","unity_icon.svg"],
-    published:new Date(2021, 2),
-    splashImage:"/imgs/space_defender_app.png"
-  },
+
   {
     name:"Calculator",
     madeWith:"JS and HTML",
@@ -40,7 +30,7 @@ const SmallProjects = [
     published:new Date(2022, 6),
     splashImage:"/imgs/calculator_app.png",
     languages: "JS, HTML/CSS",
-    type:"Coding Tool",
+    type:"Math Tool",
     platform:"Windows"
 
   },
@@ -55,6 +45,7 @@ const SmallProjects = [
     languages: "JS, HTML/CSS",
     splashImage:"/imgs/planet_defender_app.png"
   },
+  
 
   {
     name:"Gif Creator",
@@ -63,7 +54,7 @@ const SmallProjects = [
     languageIcons:["js_icon.svg","html_icon.svg"],
     published:new Date(2022, 6),
     platform:"Windows",
-    type:"Coding Tool",
+    type:"Search Gifs and Make Memes",
     languages: "JS, HTML/CSS",
     splashImage:"/imgs/gif_app.png"
   },

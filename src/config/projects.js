@@ -9,7 +9,7 @@ export default [
     embed:"https://marcoking13.github.io/codex_remake_",
     type:"Coding Tool",
     languages: "JS, HTML/CSS",
-    link:"",
+    link:"https://marcoking13.github.io/codex_remake_",
     platform:"Windows",
     workflow:[
       {
@@ -85,7 +85,7 @@ export default [
     description:"You are a mine cart and must dash and jump your way through the mine cave collecting gems and avoiding dangerous enemies at the same time, can you make it out of the mine?",
     type:"Side Scroller",
     languages:"Unity, C#",
-    link:"",
+    link:"https://sableye12.itch.io/gem-cart",
     platform:"Windows",
     workflow:[
       {
@@ -157,6 +157,83 @@ export default [
     ]
   },
   {
+   video:"imgs/ez_eatz_demo.mp4",
+   published:"2020",
+   splashImage:"/imgs/ez-eatz-splash.png",
+   isSplashLight:false,
+   embed:"https://ez-eatz-app.herokuapp.com/",
+   name:"EZ Eatz",
+   description:"EZ-Eatz is an app that will allow users to see nearby foodtrucks and then also be able to order from them and pick up their food, save your self the inconvience of trying to track down foodtrucks and waiting in line and instead track and order right from your phone!",
+   type:"Foodtruck Finder",
+   languages:"MERN, JS, HTML/CSS",
+   link:"https://ez-eatz-app.herokuapp.com/",
+   platform:"Windows",
+   workflow:[
+     {
+       heading:"App Concept",
+       components:[
+         {
+           heading:"Track Foodtrucks",
+           icon:"ez_foodtruck.svg",
+           description:"This app will allow the user to see foodtrucks nearby them and also be able to access and order from their menu right from the map. All the user needs to do is type in their address or zip and it will locate all the foodtrucks nearby the user!"
+         },
+         {
+           heading:"Order from Foodtruck",
+           icon:"ez_order.svg",
+           description:"Be able to see all the nearby foodtrucks' menu and b order from you phone and then simply go and pick up your order from the foodtruck when it is ready!"
+
+         }
+       ]
+     },
+     {
+       heading:"Coding Solutions",
+       components:[
+         {
+           heading:"Geocoding and Reverse Geocoding",
+           icon:"ez_geo.svg",
+           description:"App will turn the location of the user into coordinates and then compare all the foodtrucks coordinates and display the nearest foodtrucks to the user"
+         },
+         {
+           heading:"Google Maps",
+           icon:"ez_maps.svg",
+           description:"App will get the coords of all the foodtrucks in the app and them plot them on the google maps page displaying the foodtruck's name, cuisine, and price range",
+         },
+         {
+           heading:"Adding Foodtrucks",
+           icon:"ez_add.svg",
+           description:"App uses several mongodb databases to keep track of users and the foodtrucks owners as well, an owner as can easily their menu and foodtruck info to the app for users to see on the page! ",
+
+         }
+
+       ]
+     },
+     {
+       heading:"What I Learned",
+       components:[
+         {
+           heading:"Managing Databases",
+           icon:"ez_data.svg",
+           description:"I learned how to manage several databases with Mongodb and got comfortable with updating complex databases and then displaying them to the user based on certain criteria like distance"
+         },
+         {
+           heading:"Google Maps",
+           icon:"ez_maps_2.svg",
+           description:"I learned how to add and manipulate the google maps api such as adding markers to the map itself showing the user and all the foodtrucks near the user, I was also able to make the markers take the user to the foodtruck's menu so they can order right away! ",
+         },
+         {
+           heading:"Google OAuth20",
+           icon:"ez_auth.svg",
+           description:"I was able to give the user the option of using google to log in by learning how the Google OAuth20 works and then save the user's info into a database so they do not have to keep logging in",
+
+         }
+
+
+
+       ]
+     }
+   ]
+ },
+  {
     video:"imgs/star_slash_demo.mp4",
     published:"2021",
     isSplashLight:false,
@@ -166,7 +243,7 @@ export default [
     description:"Star Slash is a similar game to fruit ninja. The player will have a star slicer and will try to slice as many stars as possible before they hit a meteor or miss too many stars ",
     type:"Fruit Ninja Game",
     languages:"Unity, C#",
-    link:"",
+    link:"https://itch.io/embed-upload/1757738?color=00050C&autoplay=0",
     platform:"Windows",
     workflow:[
       {
@@ -309,83 +386,6 @@ export default [
             description:"I learned how to push other user's data to my own server and database and then display them to my app so everyone can see them and interact with other user's playlists and content",
 
           }
-
-
-        ]
-      }
-    ]
-  },
-   {
-    video:"imgs/ez_eatz_demo.mp4",
-    published:"2020",
-    splashImage:"/imgs/ez-eatz-splash.png",
-    isSplashLight:false,
-    embed:"https://ez-eatz-app.herokuapp.com/",
-    name:"EZ Eatz",
-    description:"EZ-Eatz is an app that will allow users to see nearby foodtrucks and then also be able to order from them and pick up their food, save your self the inconvience of trying to track down foodtrucks and waiting in line and instead track and order right from your phone!",
-    type:"Foodtruck Finder",
-    languages:"MERN, JS, HTML/CSS",
-    link:"https://ez-eatz-app.herokuapp.com/",
-    platform:"Windows",
-    workflow:[
-      {
-        heading:"App Concept",
-        components:[
-          {
-            heading:"Track Foodtrucks",
-            icon:"ez_foodtruck.svg",
-            description:"This app will allow the user to see foodtrucks nearby them and also be able to access and order from their menu right from the map. All the user needs to do is type in their address or zip and it will locate all the foodtrucks nearby the user!"
-          },
-          {
-            heading:"Order from Foodtruck",
-            icon:"ez_order.svg",
-            description:"Be able to see all the nearby foodtrucks' menu and b order from you phone and then simply go and pick up your order from the foodtruck when it is ready!"
-
-          }
-        ]
-      },
-      {
-        heading:"Coding Solutions",
-        components:[
-          {
-            heading:"Geocoding and Reverse Geocoding",
-            icon:"ez_geo.svg",
-            description:"App will turn the location of the user into coordinates and then compare all the foodtrucks coordinates and display the nearest foodtrucks to the user"
-          },
-          {
-            heading:"Google Maps",
-            icon:"ez_maps.svg",
-            description:"App will get the coords of all the foodtrucks in the app and them plot them on the google maps page displaying the foodtruck's name, cuisine, and price range",
-          },
-          {
-            heading:"Adding Foodtrucks",
-            icon:"ez_add.svg",
-            description:"App uses several mongodb databases to keep track of users and the foodtrucks owners as well, an owner as can easily their menu and foodtruck info to the app for users to see on the page! ",
-
-          }
-
-        ]
-      },
-      {
-        heading:"What I Learned",
-        components:[
-          {
-            heading:"Managing Databases",
-            icon:"ez_data.svg",
-            description:"I learned how to manage several databases with Mongodb and got comfortable with updating complex databases and then displaying them to the user based on certain criteria like distance"
-          },
-          {
-            heading:"Google Maps",
-            icon:"ez_maps_2.svg",
-            description:"I learned how to add and manipulate the google maps api such as adding markers to the map itself showing the user and all the foodtrucks near the user, I was also able to make the markers take the user to the foodtruck's menu so they can order right away! ",
-          },
-          {
-            heading:"Google OAuth20",
-            icon:"ez_auth.svg",
-            description:"I was able to give the user the option of using google to log in by learning how the Google OAuth20 works and then save the user's info into a database so they do not have to keep logging in",
-
-          }
-
 
 
         ]
