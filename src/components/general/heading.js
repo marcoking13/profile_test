@@ -19,11 +19,7 @@ class Heading extends React.Component{
   render(){
   return(
 
-        <div key = {this.props.title} onClick = {()=>{
-          if(this.props.GoToLink){
-            this.props.GoToLink(this.props.project.link);
-          }
-        }}className={"row padding-bottom-5 "} style={{marginTop:this.props.margin}} >
+        <div key = {this.props.title} className="row padding-bottom-5 " style={{marginTop:this.props.margin,position:"relative"}} >
           <div className="col-5">
             <div className="heading_container heading_animation fast-animation">
             <p className=" intro_title dark-blue"> {this.props.title} </p>

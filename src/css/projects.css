@@ -14,6 +14,26 @@
 .arrow_change_color:hover p{
   color:white;
 }
+.app_project_button{
+  width:25%;
+  height:45px;
+  border-radius:10px;
+  background:black ;
+  color:white;
+  border-color:#FFBD59;
+  font-family:"Roboto";
+  font-size:25px;
+  font-weight: bold;
+  z-index:9999;
+  position: absolute;
+  top:55%;
+  right:5%;
+}
+.app_project_button:hover{
+  background:#FFBD59 !important;
+  color:black;
+  border-color:#FFBD59;
+}
 .text-center{
   text-align:center;
 }

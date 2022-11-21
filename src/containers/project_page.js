@@ -21,8 +21,9 @@ class ProjectModal extends React.Component {
     return(
       <div className="project_modal">
 
-        <Heading  GoToLink = {this.GoToApp} project = {this.props.currentProject} margin = "10%" title = {this.props.currentProject.name} subTitle = "Click to view full app"/>
+        <Heading  GoToLink = {this.GoToApp} project = {this.props.currentProject} margin = "10%" title = {this.props.currentProject.name} subTitle ={this.props.currentProject.type}/>
 
+        <a className="no-link-style" href={this.props.currentProject.link}><button className="app_project_button">See Full App</button></a>
 
         <div className="row">
           <div className="col-1"/>
