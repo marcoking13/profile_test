@@ -45,7 +45,7 @@ const SmallProjects = [
     languages: "JS, HTML/CSS",
     splashImage:"/imgs/planet_defender_app.png"
   },
-  
+
 
   {
     name:"Gif Creator",
@@ -61,7 +61,7 @@ const SmallProjects = [
   {
     name:"Snake Game",
     madeWith:"Python & Turtle Graphics",
-    link:"https://marcoking13.github.io/Raging-Rumble/",
+    link:"",
     languageIcons:["python.svg"],
     published:new Date(2022, 6),
     splashImage:"/imgs/snake_game.svg",
@@ -72,7 +72,7 @@ const SmallProjects = [
   {
     name:"Python Pong",
     madeWith:"Python & Turtle Graphics",
-    link:"https://marcoking13.github.io/Raging-Rumble/",
+    link:"",
     languageIcons:["python.svg"],
     published:new Date(2022, 6),
     splashImage:"/imgs/pong_game.svg",
@@ -84,7 +84,7 @@ const SmallProjects = [
   {
     name:"Color Extracter",
     madeWith:"Python & Turtle Graphics",
-    link:"https://marcoking13.github.io/Calculator/",
+    link:"",
     languageIcons:["python_icon.svg"],
     published:new Date(2022, 6),
     splashImage:"/imgs/color_extracter_app.png",
@@ -107,7 +107,7 @@ const SmallProjects = [
   {
     name:"Spirograph Drawer",
     madeWith:"Python & Turtle Graphics",
-    link:"https://marcoking13.github.io/Calculator/",
+    link:"",
     languageIcons:["python_icon.svg"],
     published:new Date(2022, 6),
     splashImage:"/imgs/spirograph_app.png",
@@ -203,7 +203,7 @@ const SmallProjects = [
     type:"Coding Tool",
     published:new Date(2022, 6),
     languages: "Python",
-    link:"https://marcoking13.github.io/Basic_Calculator/",
+    link:"",
     splashImage:"/imgs/blackjack_app.png",
     languageIcons:["python_icon.svg"]
   },
@@ -215,7 +215,7 @@ const SmallProjects = [
     published:new Date(2022, 6),
     type:"Coding Tool",
     languages: "Python",
-    link:"https://replit.com/@MarcoKhodr/blackjack#main.py",
+    link:"",
     splashImage:"/imgs/calculator_p_app.png",
     languageIcons:["python_icon.svg"]
   },
@@ -244,7 +244,7 @@ const SmallProjects = [
   {
     name:"Turtle Racing",
     madeWith:"Python & Turtle Graphics",
-    link:"https://marcoking13.github.io/Raging-Rumble/",
+    link:"",
     languageIcons:["python.svg"],
     published:new Date(2022, 6),
     splashImage:"/imgs/turtle_racing.png",
