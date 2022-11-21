@@ -4,7 +4,13 @@ const PortfolioBox = (props) => {
   const active_link = props.project.link.length > 1 ? 1 : .1;
 
   return(
-    <div style={{opacity:active_link}} className={`col-${props.colSize} margin-top-20 portfolio_box `} onClick = {()=>{props.ToggleProject(x,props.index)}}>
+    <div style={{opacity:active_link}} className={`col-${props.colSize} margin-top-20 portfolio_box `} onClick = {()=>{
+      if(props.project.link.length >1){
+        props.ToggleProject(x,props.index)
+      }else{
+        console.log("No Link");
+      }
+    }}>
 
       <div className="portfolio_box_child   width-100 border-radius-10 height-100 " >
         <img class="width-100 portfolio_image" src= {process.env.PUBLIC_URL + props.project.splashImage} style={{height:"450px"}}/>
